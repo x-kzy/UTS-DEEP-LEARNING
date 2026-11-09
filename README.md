@@ -1,9 +1,7 @@
 <div align="center">
 
-# KLASIFIKASI KELAS HARGA LAPTOP
-## Menggunakan Multi-Layer Perceptron (MLP) dengan Hyperparameter Tuning
-
-### UTS DEEP LEARNING · KELOMPOK 4
+# Klasifikasi Kelas Harga Laptop Berdasarkan Spesifikasi Teknis Menggunakan Arsitektur Multi-Layer Perceptron (MLP) dengan Hyperparameter Tuning
+# UTS DEEP LEARNING 
 
 **Universitas Mikroskil · S-1 Teknik Informatika · Semester Ganjil 2026/2027**
 
@@ -17,11 +15,11 @@
 **Mikkael Raynala Tampubolon** (231112313) · **Ipaldi Jagarojes Sembiring** (231112081)  
 **Muhammad Dhani Irvansyah** (231112747)
 
-**Dosen:** Syanti Irviantina, S.Kom., M.Kom. · **Mata Kuliah:** Deep Learning · **Project ID:** B10
+**Dosen:** Syanti Irviantina, S.Kom., M.Kom. · **Mata Kuliah:** Deep Learning · **Kelompok:** 4
 
 ### [Buka Aplikasi LAPTOP-CLASSIFIER](https://huggingface.co/spaces/Xkazuya/LAPTOP-CLASSIFIER) · [Buka Notebook Final](notebooks/UTS_DEEP_LEARNING_KELOMPOK_4_FINAL.ipynb) · [Baca Laporan PDF](reports/Laporan_UTS_Deep_Learning_Kelompok_4.pdf)
 
-*Model utama penelitian: **Model 3 — Tuned MLP (96→64→48)** · 83 fitur · 3 kelas harga*
+*Model utama penelitian: **Model 3 - Tuned MLP (96→64→48)** · 83 fitur · 3 kelas harga*
 
 </div>
 
@@ -52,7 +50,7 @@ Tujuan UTS kami adalah membangun alur pemrosesan data tabular yang bisa digunaka
 <a id="dataset-dan-label"></a>
 ## 2. Dataset dan Label
 
-**Sumber:** [Kaggle — Laptop Specifications and Prices Dataset (`anshsahu111`)](https://www.kaggle.com/datasets/anshsahu111/laptop-specifications-and-prices-dataset).
+**Sumber:** [Kaggle - Laptop Specifications and Prices Dataset (`anshsahu111`)](https://www.kaggle.com/datasets/anshsahu111/laptop-specifications-and-prices-dataset).
 
 | Pemeriksaan | Nilai dalam notebook final |
 | --- | --- |
@@ -150,7 +148,7 @@ Pada Model 3, Entry-Level benar **43/45** (recall 95,56%), Mid-Range **40/56** (
 ![Confidence threshold dan permutation importance](docs/images/s11_grafik_01.png)
 
 <a id="demo-hugging-face"></a>
-## 7. Deployment Hugging Face — LAPTOP-CLASSIFIER
+## 7. Deployment Hugging Face - LAPTOP-CLASSIFIER
 
 **Jalankan aplikasi:** [Xkazuya/LAPTOP-CLASSIFIER](https://huggingface.co/spaces/Xkazuya/LAPTOP-CLASSIFIER) · [Dokumentasi lengkap UI dan 6 screenshot](docs/HUGGING_FACE.md) · [Source frontend](web_static/README.md) · [Alasan SDK Static dan cara deploy](docs/DEPLOYMENT.md)
 
@@ -160,8 +158,8 @@ Aplikasi ini menerapkan **Model 3 (Tuned MLP)**, bukan model lain. Kami memilih 
 
 | Fitur | Yang dapat dilakukan | Bukti |
 | --- | --- | --- |
-| **Dual Mode — Light/Dark** | Ganti tema dengan satu klik tanpa memengaruhi prediksi model | [Screenshot tema gelap](docs/huggingface/kustom_budget_dark_9859.png) / [terang](docs/huggingface/kustom_highend_light_9997.png) |
-| **Dual Price — INR/IDR** | Lihat kelas harga dari INR asli dan rupiah ilustratif dengan kurs acuan tetap **1 INR ≈ Rp192,549** | [Penjelasan konversi](docs/HUGGING_FACE.md#dual-price-bagaimana-rupiah-dihitung) |
+| **Dual Mode - Light/Dark** | Ganti tema dengan satu klik tanpa memengaruhi prediksi model | [Screenshot tema gelap](docs/huggingface/kustom_budget_dark_9859.png) / [terang](docs/huggingface/kustom_highend_light_9997.png) |
+| **Dual Price - INR/IDR** | Lihat kelas harga dari INR asli dan rupiah ilustratif dengan kurs acuan tetap **1 INR ≈ Rp192,549** | [Penjelasan konversi](docs/HUGGING_FACE.md#dual-price-bagaimana-rupiah-dihitung) |
 | **Input kustom** | Dropdown brand, CPU, GPU, OS, RAM dan penyimpanan; radio, slider, resolusi, garansi, rating | [Source HTML](web_static/index.html) |
 | **Tiga preset cepat** | Budget, Mid-Range, High-End sebagai contoh input; keluaran tetap dihitung model | [Screenshot Budget](docs/huggingface/kustom_budget_dark_9859.png) |
 | **Hasil prediksi** | Kelas 0/1/2, confidence dan tiga probabilitas Softmax, PPI, 83 fitur, status peninjauan | [Dokumentasi prediksi](docs/HUGGING_FACE.md#tab-1-input-spesifikasi-kustom) |
@@ -172,7 +170,7 @@ Aplikasi ini menerapkan **Model 3 (Tuned MLP)**, bukan model lain. Kami memilih 
 
 ### Bukti antarmuka aktual: tema terang, tema gelap dan dua mode prediksi
 
-| **Input kustom — Preset Budget (Dark Mode)** | **Input kustom — High-End (Light Mode)** |
+| **Input kustom - Preset Budget (Dark Mode)** | **Input kustom - High-End (Light Mode)** |
 | --- | --- |
 | ![Budget 98,59%](docs/huggingface/kustom_budget_dark_9859.png) | ![High-End 99,97%](docs/huggingface/kustom_highend_light_9997.png) |
 | **Entry-Level**, confidence **98,59%**, PPI **157,35** | **High-End**, confidence **99,97%**, probabilitas kelas 2 paling tinggi |
@@ -183,7 +181,7 @@ Aplikasi ini menerapkan **Model 3 (Tuned MLP)**, bukan model lain. Kami memilih 
 | **17 Entry-Level · 17 Mid-Range · 14 High-End** | **4 Entry-Level · 20 Mid-Range · 48 High-End** |
 
 <a id="uji-batch-csv-xlsx-json"></a>
-### Demo batch — hasil sesuai screenshot pengujian
+### Demo batch - hasil sesuai screenshot pengujian
 
 | Berkas / mode | Jumlah | Entry-Level | Mid-Range | High-End | Bukti screenshot |
 | --- | ---: | ---: | ---: | ---: | --- |
