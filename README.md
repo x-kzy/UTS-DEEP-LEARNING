@@ -2,3 +2,4 @@
 Repository untuk uts deep learning
 
 hallo gaes
+tee
