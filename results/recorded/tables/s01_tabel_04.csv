@@ -1,0 +1,23 @@
+﻿Unnamed: 0,Tipe Data,Jumlah Non-Null,Jumlah Missing (NaN),Persentase Missing (%)
+index,int64,1018,0,0.0
+brand_name,object,1018,0,0.0
+model,object,1018,0,0.0
+price,int64,1018,0,0.0
+rating,float64,1018,0,0.0
+processor,object,1018,0,0.0
+processor_brand,object,1018,0,0.0
+iter,object,1018,0,0.0
+ram,object,1018,0,0.0
+threads_num,float64,941,77,7.56
+core_num,float64,996,22,2.16
+ram_num,int64,1018,0,0.0
+memory_type,object,1018,0,0.0
+memory_size,int64,1018,0,0.0
+gpu_brand,object,1018,0,0.0
+gpu_type,object,1018,0,0.0
+os,object,1018,0,0.0
+display_size,float64,1018,0,0.0
+resolutioin_height,int64,1018,0,0.0
+resolutioin_width,int64,1018,0,0.0
+Touch_Screen,bool,1018,0,0.0
+warrenty,int64,1018,0,0.0

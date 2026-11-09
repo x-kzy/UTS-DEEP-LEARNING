@@ -1,0 +1,4 @@
+﻿Unnamed: 0,Subset Data,Missing threads_num,Missing core_num,Total NaN
+0,X_train (712 sampel),54,18,72
+1,X_val (153 sampel),12,3,15
+2,X_test (153 sampel),11,1,12

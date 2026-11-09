@@ -1,0 +1,4 @@
+﻿Unnamed: 0,Model,Jumlah Parameter,Peak Val Accuracy (%),Val Accuracy Bobot Akhir (%),Val Macro F1,Val Loss Bobot Akhir,Min Val Loss Selama Training,Epoch Dilatih
+0,Model 2: Regularized MLP,22083,90.8497,88.2353,0.8836,0.3001,0.3001,38
+1,Model 3: Tuned MLP,18371,90.1961,87.5817,0.8769,0.2849,0.2849,36
+2,Model 1: Baseline MLP,7555,84.3137,83.6601,0.8347,0.3804,0.3798,50

@@ -1,0 +1,7 @@
+﻿Unnamed: 0,Eksperimen,opt_name,lr,use_bn,use_dropout,l2_val,Val Accuracy (%),Val Macro F1,Val Loss,Epoch Dilatih,Jumlah Parameter
+0,A: Kapasitas 3-layer + SGD,sgd,0.01,False,False,0.0,84.96732,0.85019,0.37936,95,21187
+1,B: A + Adam,adam,0.001,False,False,0.0,87.5817,0.87625,0.32728,28,21187
+2,C: B + BatchNorm,adam,0.001,True,False,0.0,87.5817,0.87579,0.3035,42,22083
+3,D: C + Dropout,adam,0.001,True,True,0.0,87.5817,0.8771,0.28144,43,22083
+4,E: D + L2,adam,0.001,True,True,0.0001,86.9281,0.86935,0.30234,43,22083
+5,"F: Kandidat hasil tuning (pembanding, bukan ab...",adam,0.00221,True,True,2e-05,87.5817,0.87687,0.28494,36,18371

@@ -1,0 +1,10 @@
+﻿Unnamed: 0,Komponen Lingkungan,Versi / Spesifikasi
+0,Python Runtime,3.13.18
+1,Platform OS,Linux-6.6.159+-x86_64-with-glibc2.39
+2,TensorFlow / Keras,2.21.0
+3,KerasTuner,1.4.8
+4,Scikit-Learn,1.6.1
+5,Pandas & NumPy,pandas 2.2.3 | numpy 2.4.6
+6,Joblib Serializer,1.6.0
+7,Akselerator Komputasi,CPU Standard (x86_64)
+8,Global Random Seed,SEED = 42

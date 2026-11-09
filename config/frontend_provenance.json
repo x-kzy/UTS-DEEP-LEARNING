@@ -1,0 +1,83 @@
+{
+  "snapshot_date": "2026-11-10",
+  "source": "User attachments and previous prepared static source kit",
+  "live_huggingface_commit_fetched": false,
+  "claimed_model_weights_in_github": false,
+  "files": [
+    {
+      "source_uploaded_filename": "image(20261109-183202).png",
+      "path_in_repository": "docs/huggingface/kustom_budget_dark_9859.png",
+      "size_px": [
+        1917,
+        968
+      ],
+      "sha256": "e29e606a29837b889827c050de2593577517a5687c3984790f1bcb4c44cbe8ef",
+      "type": "User-provided real UI screenshot"
+    },
+    {
+      "source_uploaded_filename": "image(20261109-183318).png",
+      "path_in_repository": "docs/huggingface/kustom_highend_light_9997.png",
+      "size_px": [
+        1917,
+        970
+      ],
+      "sha256": "04f18c177e7aeb9afc7457911793c17cff25b11dd7bc4f37f390baa805f729d2",
+      "type": "User-provided real UI screenshot"
+    },
+    {
+      "source_uploaded_filename": "image(20261109-183340).png",
+      "path_in_repository": "docs/huggingface/batch_preset_training_48_light.png",
+      "size_px": [
+        1917,
+        973
+      ],
+      "sha256": "fb4a988be1ecff3a4cf29f43c482a7e21dc9e5bcd16804467611d325dfe87a17",
+      "type": "User-provided real UI screenshot"
+    },
+    {
+      "source_uploaded_filename": "image(20261109-183356).png",
+      "path_in_repository": "docs/huggingface/batch_json_72_dark_667.png",
+      "size_px": [
+        1917,
+        970
+      ],
+      "sha256": "737097463d47c00f4a233a0e715a3c825bc0cc90528c82a5cf837b900d3f4b0c",
+      "type": "User-provided real UI screenshot"
+    },
+    {
+      "source_uploaded_filename": "app(1).js",
+      "path_in_repository": "web_static/app.js",
+      "bytes": 27000,
+      "sha256": "5cd4e8f9b923abd96c13eabac7c10ce473dbe36771ce82c5a926efdcc2d82000",
+      "type": "Exact user-provided frontend file"
+    },
+    {
+      "source_uploaded_filename": "index(3).html",
+      "path_in_repository": "web_static/index.html",
+      "bytes": 12492,
+      "sha256": "c48b89a474cb0e3818e8c4b69eae07554a93808abf67870b51d623266f2c9059",
+      "type": "Exact user-provided frontend file"
+    },
+    {
+      "source_uploaded_filename": "previous prepared static source kit (not freshly retrieved from public HF)",
+      "path_in_repository": "web_static/inference.js",
+      "bytes": 5419,
+      "sha256": "a5ff425d245f8decc40f9863fa8a3a3e30cbaa87c7b3d0c14023e21a494aaadc",
+      "type": "Companion frontend source; live commit parity unverified"
+    },
+    {
+      "source_uploaded_filename": "previous prepared static source kit (not freshly retrieved from public HF)",
+      "path_in_repository": "web_static/style.css",
+      "bytes": 10028,
+      "sha256": "651e6910ce9b7b393f3f3800af46ae9d876b8e0207558e3f452946d8933b53dc",
+      "type": "Companion frontend source; live commit parity unverified"
+    },
+    {
+      "source_uploaded_filename": "previous prepared static source kit (not freshly retrieved from public HF)",
+      "path_in_repository": "web_static/xlsx-lite.js",
+      "bytes": 8195,
+      "sha256": "f7a6358b8aab2e9da3e658e93373a4d85415060a4394b4133eb4df0436268be2",
+      "type": "Companion frontend source; live commit parity unverified"
+    }
+  ]
+}

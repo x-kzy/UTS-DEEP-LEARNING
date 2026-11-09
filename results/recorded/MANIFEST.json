@@ -1,0 +1,414 @@
+{
+  "date_source": "2026-11-09",
+  "notebook_uploaded": "UTS_DEEP_LEARNING_KELOMPOK_4_FINALE(6).ipynb",
+  "notebook_sha256": "5e6f795c65cc88b1692f34a8fae3066ab74541f281009e0b56badcd8a8947370",
+  "code_cell_count": 14,
+  "sections": 14,
+  "graphics": [
+    {
+      "section": 2,
+      "cell": 5,
+      "output": 11,
+      "name": "s02_grafik_01.png",
+      "label": "Distribusi kelas, harga, dan GPU",
+      "size": 75649
+    },
+    {
+      "section": 2,
+      "cell": 5,
+      "output": 12,
+      "name": "s02_grafik_02.png",
+      "label": "Histogram sepuluh fitur numerik",
+      "size": 196974
+    },
+    {
+      "section": 2,
+      "cell": 5,
+      "output": 13,
+      "name": "s02_grafik_03.png",
+      "label": "Matriks korelasi spesifikasi dan harga",
+      "size": 130944
+    },
+    {
+      "section": 5,
+      "cell": 14,
+      "output": 13,
+      "name": "s05_grafik_01.png",
+      "label": "Kurva pelatihan dua model pembanding",
+      "size": 155598
+    },
+    {
+      "section": 6,
+      "cell": 17,
+      "output": 2,
+      "name": "s06_grafik_01.png",
+      "label": "Peringkat trial KerasTuner dan learning rate",
+      "size": 70785
+    },
+    {
+      "section": 8,
+      "cell": 23,
+      "output": 6,
+      "name": "s08_grafik_01.png",
+      "label": "Confusion matrix model utama",
+      "size": 81414
+    },
+    {
+      "section": 9,
+      "cell": 26,
+      "output": 2,
+      "name": "s09_grafik_01.png",
+      "label": "Audit kondisi baseline dan kualitas data",
+      "size": 209893
+    },
+    {
+      "section": 10,
+      "cell": 29,
+      "output": 4,
+      "name": "s10_grafik_01.png",
+      "label": "Perbandingan akurasi validation dan testing",
+      "size": 27838
+    },
+    {
+      "section": 11,
+      "cell": 32,
+      "output": 7,
+      "name": "s11_grafik_01.png",
+      "label": "Ambang confidence dan permutation importance",
+      "size": 88758
+    },
+    {
+      "section": 12,
+      "cell": 35,
+      "output": 6,
+      "name": "s12_grafik_01.png",
+      "label": "Perbandingan F1 makro pada percobaan ablasi",
+      "size": 51011
+    },
+    {
+      "section": 14,
+      "cell": 40,
+      "output": 2,
+      "name": "s14_grafik_01.png",
+      "label": "Kurva accuracy Tuned MLP",
+      "size": 29992
+    },
+    {
+      "section": 14,
+      "cell": 40,
+      "output": 3,
+      "name": "s14_grafik_02.png",
+      "label": "Kurva loss Tuned MLP",
+      "size": 38483
+    },
+    {
+      "section": 14,
+      "cell": 40,
+      "output": 4,
+      "name": "s14_grafik_03.png",
+      "label": "Confusion matrix Tuned MLP",
+      "size": 33672
+    },
+    {
+      "section": 14,
+      "cell": 40,
+      "output": 5,
+      "name": "s14_grafik_04.png",
+      "label": "Grafik evaluasi tambahan",
+      "size": 44019
+    },
+    {
+      "section": 14,
+      "cell": 40,
+      "output": 6,
+      "name": "s14_grafik_05.png",
+      "label": "Visualisasi pendukung kesimpulan",
+      "size": 38238
+    }
+  ],
+  "recorded_html_tables": [
+    {
+      "section": 1,
+      "output": 1,
+      "name": "s01_tabel_01.csv",
+      "rows": 9,
+      "columns": 3
+    },
+    {
+      "section": 1,
+      "output": 7,
+      "name": "s01_tabel_02.csv",
+      "rows": 3,
+      "columns": 13
+    },
+    {
+      "section": 1,
+      "output": 9,
+      "name": "s01_tabel_03.csv",
+      "rows": 3,
+      "columns": 22
+    },
+    {
+      "section": 1,
+      "output": 11,
+      "name": "s01_tabel_04.csv",
+      "rows": 22,
+      "columns": 5
+    },
+    {
+      "section": 2,
+      "output": 1,
+      "name": "s02_tabel_01.csv",
+      "rows": 2,
+      "columns": 14
+    },
+    {
+      "section": 2,
+      "output": 3,
+      "name": "s02_tabel_02.csv",
+      "rows": 12,
+      "columns": 7
+    },
+    {
+      "section": 2,
+      "output": 5,
+      "name": "s02_tabel_03.csv",
+      "rows": 4,
+      "columns": 4
+    },
+    {
+      "section": 2,
+      "output": 7,
+      "name": "s02_tabel_04.csv",
+      "rows": 7,
+      "columns": 12
+    },
+    {
+      "section": 2,
+      "output": 9,
+      "name": "s02_tabel_05.csv",
+      "rows": 3,
+      "columns": 4
+    },
+    {
+      "section": 2,
+      "output": 10,
+      "name": "s02_tabel_06.csv",
+      "rows": 3,
+      "columns": 7
+    },
+    {
+      "section": 3,
+      "output": 1,
+      "name": "s03_tabel_01.csv",
+      "rows": 3,
+      "columns": 5
+    },
+    {
+      "section": 3,
+      "output": 3,
+      "name": "s03_tabel_02.csv",
+      "rows": 10,
+      "columns": 6
+    },
+    {
+      "section": 3,
+      "output": 5,
+      "name": "s03_tabel_03.csv",
+      "rows": 5,
+      "columns": 4
+    },
+    {
+      "section": 4,
+      "output": 1,
+      "name": "s04_tabel_01.csv",
+      "rows": 3,
+      "columns": 9
+    },
+    {
+      "section": 6,
+      "output": 1,
+      "name": "s06_tabel_01.csv",
+      "rows": 10,
+      "columns": 10
+    },
+    {
+      "section": 8,
+      "output": 2,
+      "name": "s08_tabel_01.csv",
+      "rows": 3,
+      "columns": 9
+    },
+    {
+      "section": 8,
+      "output": 4,
+      "name": "s08_tabel_02.csv",
+      "rows": 3,
+      "columns": 8
+    },
+    {
+      "section": 8,
+      "output": 8,
+      "name": "s08_tabel_03.csv",
+      "rows": 11,
+      "columns": 12
+    },
+    {
+      "section": 8,
+      "output": 10,
+      "name": "s08_tabel_04.csv",
+      "rows": 3,
+      "columns": 5
+    },
+    {
+      "section": 9,
+      "output": 1,
+      "name": "s09_tabel_01.csv",
+      "rows": 4,
+      "columns": 4
+    },
+    {
+      "section": 10,
+      "output": 1,
+      "name": "s10_tabel_01.csv",
+      "rows": 3,
+      "columns": 15
+    },
+    {
+      "section": 10,
+      "output": 3,
+      "name": "s10_tabel_02.csv",
+      "rows": 4,
+      "columns": 5
+    },
+    {
+      "section": 11,
+      "output": 1,
+      "name": "s11_tabel_01.csv",
+      "rows": 10,
+      "columns": 7
+    },
+    {
+      "section": 11,
+      "output": 3,
+      "name": "s11_tabel_02.csv",
+      "rows": 1,
+      "columns": 13
+    },
+    {
+      "section": 11,
+      "output": 5,
+      "name": "s11_tabel_03.csv",
+      "rows": 19,
+      "columns": 7
+    },
+    {
+      "section": 12,
+      "output": 1,
+      "name": "s12_tabel_01.csv",
+      "rows": 6,
+      "columns": 12
+    },
+    {
+      "section": 12,
+      "output": 3,
+      "name": "s12_tabel_02.csv",
+      "rows": 15,
+      "columns": 8
+    },
+    {
+      "section": 12,
+      "output": 5,
+      "name": "s12_tabel_03.csv",
+      "rows": 3,
+      "columns": 9
+    },
+    {
+      "section": 12,
+      "output": 8,
+      "name": "s12_tabel_04.csv",
+      "rows": 1,
+      "columns": 10
+    },
+    {
+      "section": 14,
+      "output": 1,
+      "name": "s14_tabel_01.csv",
+      "rows": 7,
+      "columns": 6
+    }
+  ],
+  "code_screenshots": [
+    {
+      "section": 3,
+      "line_start": 44,
+      "line_end": 69,
+      "path": "docs/code/kode_imputasi.png",
+      "title": "class GroupMedianImputer"
+    },
+    {
+      "section": 3,
+      "line_start": 72,
+      "line_end": 96,
+      "path": "docs/code/kode_preprocessing.png",
+      "title": "ColumnTransformer"
+    },
+    {
+      "section": 5,
+      "line_start": 5,
+      "line_end": 33,
+      "path": "docs/code/kode_mlp_baseline.png",
+      "title": "def build_baseline"
+    },
+    {
+      "section": 13,
+      "line_start": 226,
+      "line_end": 248,
+      "path": "docs/code/kode_sdk_static.png",
+      "title": "sdk: static"
+    },
+    {
+      "section": 6,
+      "line_start": 51,
+      "line_end": 74,
+      "path": "docs/code/kode_kerastuner.png",
+      "title": "KerasTuner RandomSearch"
+    },
+    {
+      "section": 11,
+      "line_start": 9,
+      "line_end": 57,
+      "path": "docs/code/kode_confidence_threshold.png",
+      "title": "Confidence Threshold dari Validasi"
+    },
+    {
+      "section": 11,
+      "line_start": 91,
+      "line_end": 123,
+      "path": "docs/code/kode_permutation_importance.png",
+      "title": "Permutation Importance pada Validasi"
+    }
+  ],
+  "website_screenshots": [
+    {
+      "file": "input_kustom_budget.png",
+      "caption": "Preset Budget, Entry-Level dengan confidence 98,59%"
+    },
+    {
+      "file": "batch_csv_18.png",
+      "caption": "Batch CSV 18 laptop, 0/13/5"
+    },
+    {
+      "file": "batch_xlsx_40.png",
+      "caption": "Batch XLSX 40 laptop, 2/16/22"
+    },
+    {
+      "file": "batch_json_72.png",
+      "caption": "Batch JSON 72 laptop, 4/20/48"
+    }
+  ],
+  "notes": [
+    "Notebook output tersimpan, tetapi Section 13 tidak berisi output eksekusi.",
+    "Screenshot website merupakan gambar yang diberikan pengguna dari uji Hugging Face; bukan screenshot yang diambil ulang melalui browser sesi ini."
+  ]
+}

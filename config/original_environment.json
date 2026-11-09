@@ -1,0 +1,13 @@
+{
+  "source": "Notebook final Section 1 — output runtime yang tersimpan",
+  "python": "3.13.18",
+  "tensorflow": "2.21.0",
+  "keras_tuner": "1.4.8",
+  "scikit_learn": "1.6.1",
+  "pandas": "2.2.3",
+  "numpy": "2.4.6",
+  "joblib": "1.6.0",
+  "accelerator": "CPU Standard (x86_64)",
+  "seed": 42,
+  "note": "Versi berasal dari output notebook; dependencies belum dipasang atau dites ulang pada komputer Windows."
+}

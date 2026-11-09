@@ -1,0 +1,14 @@
+# Panduan dependency untuk menjalankan notebook pada lingkungan kompatibel.
+# Versi eksperimen tersimpan dalam tabel Section 1 notebook: Python 3.13.18,
+# TensorFlow 2.21.0, scikit-learn 1.6.1, KerasTuner 1.4.8,
+# pandas 2.2.3, NumPy 2.4.6, joblib 1.6.0.
+# Tidak diklaim sudah diuji ulang pada Windows.
+tensorflow==2.21.0
+keras-tuner==1.4.8
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.4.6
+joblib==1.6.0
+matplotlib
+seaborn
+kagglehub

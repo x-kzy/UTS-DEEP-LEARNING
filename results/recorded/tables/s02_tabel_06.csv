@@ -1,0 +1,4 @@
+﻿Unnamed: 0,Kelas Target,Ambang Kelas (INR / IDR),Harga Minimum (INR / IDR),Median Harga (INR / IDR),Harga Maksimum (INR / IDR),Jumlah Sampel
+0,Kelas 0 - Entry-Level (Budget),< ₹50.000 (≈ Rp9.627.450),₹10.990 (≈ Rp2.116.114),₹36.490 (≈ Rp7.026.113),₹49.999 (≈ Rp9.627.257),301 (29.57%)
+1,Kelas 1 - Mid-Range (Mainstream),₹50.000 (≈ Rp9.627.450) s.d. ₹85.000 (≈ Rp16.3...,₹50.090 (≈ Rp9.644.779),₹65.990 (≈ Rp12.706.309),₹85.000 (≈ Rp16.366.665),371 (36.44%)
+2,Kelas 2 - High-End (Flagship),> ₹85.000 (≈ Rp16.366.665),₹85.190 (≈ Rp16.403.249),₹133.945 (≈ Rp25.790.976),₹500.990 (≈ Rp96.465.124),346 (33.99%)

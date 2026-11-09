@@ -1,0 +1,11 @@
+﻿Unnamed: 0,Seri Prosesor (iter),GroupMedianImputer core_num (X_train),SimpleImputer Global core_num (X_train),GroupMedianImputer threads_num (X_train),SimpleImputer Global threads_num (X_train)
+0,Core Ultra 5,14.0,10.0,18.0,12.0
+1,Core Ultra 7,16.0,10.0,22.0,12.0
+2,Core Ultra 9,16.0,10.0,22.0,12.0
+3,Core i7,10.0,10.0,16.0,12.0
+4,Core i9,24.0,10.0,32.0,12.0
+5,Ryzen 9,8.0,10.0,16.0,12.0
+6,Snapdragon,12.0,10.0,12.0,12.0
+7,M1,10.0,10.0,12.0,12.0
+8,M2,10.0,10.0,12.0,12.0
+9,Other,10.0,10.0,12.0,12.0

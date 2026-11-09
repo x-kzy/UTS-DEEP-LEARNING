@@ -1,0 +1,27 @@
+# secrets & local runtime
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# machine-learning generated intermediates
+artifacts/
+keras_tuner_*/
+my_dir/
+*.keras
+*.h5
+*.joblib
+laptops_uncleaned.csv
+laptops_cleaned_v1.csv
+# generated pack & temporary files
+*.log
+!docs/**/*.log
+*.tmp
+*.bak
+*.zip
+# let committed example/test inputs and documentation pass through

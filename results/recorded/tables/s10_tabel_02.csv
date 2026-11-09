@@ -1,0 +1,5 @@
+﻿Unnamed: 0,Indikator,Baseline,Model hasil tuning,Selisih (tuned - baseline)
+0,Akurasi validasi bobot akhir (%),83.6601,87.5817,3.9216
+1,F1 makro validasi,0.8347,0.8769,0.0422
+2,Akurasi data uji (%),79.7386,82.3529,2.6144
+3,F1 makro data uji,0.799,0.8256,0.0265

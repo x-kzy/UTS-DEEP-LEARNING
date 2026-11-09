@@ -1,0 +1,4 @@
+﻿Unnamed: 0,Pipeline Subset,Dimensi Tensor X,Tipe X,Tipe y,Rentang Label,Jumlah NaN / Inf,Ukuran Batch,Mode Shuffle
+0,train_ds (Latih),"(712, 83)",float32,int64,"[0, 1, 2]",0 / 0,32,Aktif (Tiap Epoch)
+1,val_ds (Validasi),"(153, 83)",float32,int64,"[0, 1, 2]",0 / 0,32,Nonaktif (Deterministik)
+2,test_ds (Uji Akhir),"(153, 83)",float32,int64,"[0, 1, 2]",0 / 0,32,Nonaktif (Deterministik)

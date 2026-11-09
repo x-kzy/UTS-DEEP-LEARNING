@@ -1,0 +1,2 @@
+﻿Unnamed: 0,Tipe pengujian,Jumlah train,Jumlah val,Jumlah test,Overlap grup,Akurasi validasi,F1 makro validasi,Akurasi test grup,F1 makro test grup
+0,Sensitivitas: group-disjoint nama model (bukan...,713,160,145,0,0.8875,0.88799,0.82069,0.82456

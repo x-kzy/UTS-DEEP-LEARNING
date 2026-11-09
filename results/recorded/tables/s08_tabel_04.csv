@@ -1,0 +1,4 @@
+﻿Unnamed: 0,Deskripsi,Kelas,Confidence (%),Rentang Kelas Prediksi (INR / IDR)
+0,"Laptop kuliah (Core i3, 8GB, Integrated)",Entry-Level (Budget),95.019997,< ₹50.000 (≈ Rp9.627.450)
+1,"Laptop kreator (Ryzen 5, 16GB, Dedicated)",Mid-Range (Mainstream),99.440002,₹50.000 (≈ Rp9.627.450) s.d. ₹85.000 (≈ Rp16.3...
+2,"Laptop gaming (Core i9, 32GB, Dedicated)",High-End (Flagship),99.980003,> ₹85.000 (≈ Rp16.366.665)

@@ -1,0 +1,27 @@
+PANDUAN PUSH REPOSITORY GITHUB DEEP LEARNING — WINDOWS
+=================================================
+Target repository: https://github.com/x-kzy/UTS-DEEP-LEARNING
+
+OPSI A — Sekali klik dari Windows (disarankan)
+1. Install Git for Windows dari https://git-scm.com/download/win jika belum ada.
+2. Login ke GitHub di komputer lewat Git Credential Manager, sesuai akun yang mempunyai akses tulis ke x-kzy/UTS-DEEP-LEARNING.
+3. Ekstrak file ZIP utama ke sebuah folder biasa (contoh: Downloads\UTS-DEEP-LEARNING).
+4. Klik dua kali PUSH_KE_GITHUB.cmd dari folder HASIL EKSTRAK (bukan dari ZIP).
+5. Skrip akan clone cabang main ke folder sementara, menyalin dokumen dan kode yang telah dibuat, lalu menampilkan daftar perubahan. Ketik YA ketika yakin ingin commit dan push.
+6. Jika login diminta, ikuti jendela login GitHub dari Git Credential Manager.
+7. Buka https://github.com/x-kzy/UTS-DEEP-LEARNING dan refresh. README tampil otomatis.
+
+OPSI B — Upload melalui web tanpa Git terpasang
+1. Ekstrak ZIP utama.
+2. Buka repository -> Add file -> Upload files.
+3. Seret file dan folder proyek. Jika drag folder gagal, gunakan browser Chrome yang mendukung upload folder atau opsi A dengan Git.
+4. Commit changes. Pastikan struktur folder (docs/images, notebooks, results, dll) tetap utuh.
+5. Jangan menghapus LICENSE yang sudah ada di GitHub.
+
+PENTING
+- Skrip tidak force push, tidak menghapus seluruh isi remote, dan tidak mengubah konfigurasi akun.
+- Skrip hanya berjalan jika akun yang login punya izin push. Jika akun tidak punya akses tulis, GitHub akan menolak; jangan menambah token di file.
+- Berkas bobot model_browser.json milik Space tidak ditambahkan karena tidak tersedia pada lampiran. app.js dan index.html pada web_static/ adalah salinan persis file terbaru yang diberikan tim. style.css, inference.js dan xlsx-lite.js merupakan source pendamping dari paket sebelumnya; identitas terhadap commit Space terkini belum diverifikasi.
+- Repository berisi screenshot demo terbaru light/dark, preset Budget dan High-End, preset training 48 laptop, plus pengujian file CSV 18, XLSX 40 dan JSON 72. Semua ini hasil UI, bukan metrik accuracy testing penelitian.
+- Dokumentasi baru ada di docs/HUGGING_FACE.md, docs/WEB_SOURCE.md dan docs/DEPLOYMENT.md.
+- Jika video sudah dipublikasikan, tambahkan link nyata di README dan docs/VIDEO_DEMO.md.

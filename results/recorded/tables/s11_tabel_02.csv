@@ -1,0 +1,2 @@
+﻿Unnamed: 0,Threshold dari validasi,Total test,Diterima otomatis,Ditinjau,Coverage test,Akurasi semua test,F1 makro semua test,Akurasi test yang diterima,F1 makro test yang diterima,Total kesalahan awal,Kesalahan yang ditandai untuk tinjauan,Kesalahan yang masih diterima otomatis
+0,0.7,153,126,27,0.8235,0.8235,0.8256,0.8968,0.8966,27,14,13

@@ -1,0 +1,20 @@
+﻿Unnamed: 0,Peringkat,Nama Fitur Asli,Jenis Fitur,Penurunan F1 Rata-rata,Simpangan Baku,Jumlah Ulangan
+0,1,iter,Kategorikal,0.08892,0.02085,10
+1,2,gpu_type,Kategorikal,0.03215,0.01203,10
+2,3,ram_num,Numerik,0.03196,0.0126,10
+3,4,display_size,Numerik,0.02601,0.0153,10
+4,5,gpu_brand,Kategorikal,0.02065,0.01215,10
+5,6,brand_name,Kategorikal,0.01957,0.0218,10
+6,7,ppi,Numerik,0.01944,0.01571,10
+7,8,memory_size,Numerik,0.01895,0.01937,10
+8,9,resolution_width,Numerik,0.01401,0.01958,10
+9,10,threads_num,Numerik,0.01287,0.02088,10
+10,11,ram_type,Kategorikal,0.01197,0.02316,10
+11,12,warranty,Numerik,0.00957,0.01024,10
+12,13,Touch_Screen,Kategorikal,0.00754,0.01169,10
+13,14,memory_type,Kategorikal,0.00707,0.00211,10
+14,15,resolution_height,Numerik,0.00548,0.01562,10
+15,16,rating,Numerik,0.00281,0.01527,10
+16,17,processor_brand,Kategorikal,-0.00069,0.00969,10
+17,18,core_num,Numerik,-0.00328,0.01853,10
+18,19,os,Kategorikal,-0.00432,0.00628,10

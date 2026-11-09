@@ -1,0 +1,19 @@
+﻿model,brand_name,processor_brand,iter,core_num,threads_num,ram_num,ram_type,memory_type,memory_size,gpu_brand,gpu_type,display_size,resolution_width,resolution_height,Touch_Screen,os,warranty,rating
+SIMULASI-CSV-BUDGET-004,Acer,Intel,Core i5,8,12,16,DDR4,SSD,512,Intel,Integrated,15.6,1920,1080,False,Windows 10/11,2,4.62
+SIMULASI-CSV-MID-003,Acer,Intel,Core i7,10,16,16,LPDDR5,SSD,1024,AMD,Integrated,15.6,1920,1200,False,Windows 10/11,2,3.59
+SIMULASI-CSV-BUDGET-007,HP,AMD,Ryzen 3,4,8,16,DDR4,SSD,512,AMD,Integrated,14.0,1920,1200,True,Windows 10/11,1,4.72
+SIMULASI-CSV-BUDGET-010,Acer,AMD,Ryzen 3,4,8,8,DDR5,SSD,256,AMD,Integrated,15.6,1920,1200,True,Windows 10/11,3,4.51
+SIMULASI-CSV-BUDGET-011,Samsung,Intel,Core i5,8,12,8,DDR5,SSD,512,Intel,Integrated,15.6,1920,1200,True,Windows 10/11,2,4.19
+SIMULASI-CSV-BUDGET-003,HP,Intel,Core i3,6,8,16,DDR4,SSD,512,Intel,Integrated,15.6,1920,1080,False,Windows 10/11,1,3.81
+SIMULASI-CSV-MID-002,HP,Intel,Core Ultra 7,16,22,32,DDR5,SSD,1024,AMD,Integrated,15.6,2560,1600,False,Windows 10/11,2,3.88
+SIMULASI-CSV-BUDGET-006,HP,Intel,Core i3,6,8,8,DDR4,SSD,512,Intel,Integrated,14.0,1366,768,False,Windows 10/11,3,4.42
+SIMULASI-CSV-HIGH-001,Acer,Intel,Core Ultra 7,16,22,32,LPDDR5X,SSD,4096,NVIDIA,Dedicated,17.3,1920,1200,True,Windows 10/11,2,4.39
+SIMULASI-CSV-BUDGET-001,HP,Intel,Core i3,6,8,8,LPDDR4,SSD,256,Intel,Integrated,15.6,1366,768,False,Windows 10/11,1,4.77
+SIMULASI-CSV-BUDGET-009,Samsung,Intel,Core i3,6,8,16,DDR5,SSD,512,Intel,Integrated,15.6,1920,1080,False,Windows 10/11,3,3.9
+SIMULASI-CSV-BUDGET-002,HP,Intel,Core i3,6,8,8,DDR5,SSD,256,Intel,Integrated,15.6,1366,768,False,Windows 10/11,2,4.67
+SIMULASI-CSV-BUDGET-008,ASUS,Intel,Core i3,6,8,8,DDR4,SSD,512,Intel,Integrated,14.0,1366,768,True,Windows 10/11,1,4.53
+SIMULASI-CSV-MID-001,HP,AMD,Ryzen 5,6,12,16,DDR4,SSD,1024,AMD,Integrated,15.6,1920,1080,False,Windows 10/11,3,4.87
+SIMULASI-CSV-MID-004,MSI,AMD,Ryzen 5,6,12,32,DDR5,SSD,1024,NVIDIA,Dedicated,14.0,2560,1600,False,Windows 10/11,2,4.48
+SIMULASI-CSV-BUDGET-012,ASUS,Intel,Core i5,8,12,8,DDR5,SSD,512,Intel,Integrated,15.6,1920,1080,True,Windows 10/11,1,4.12
+SIMULASI-CSV-HIGH-002,ASUS,Intel,Core Ultra 7,16,22,64,LPDDR5,SSD,4096,NVIDIA,Dedicated,14.0,2560,1600,False,Windows 10/11,2,3.8
+SIMULASI-CSV-BUDGET-005,Lenovo,AMD,Ryzen 3,4,8,8,DDR5,SSD,512,AMD,Integrated,14.0,1366,768,True,Windows 10/11,3,4.85

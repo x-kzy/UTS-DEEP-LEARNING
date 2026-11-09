@@ -1,0 +1,4 @@
+﻿Unnamed: 0,Model,Val_Accuracy_Mean,Val_Accuracy_Std,Val_F1_Mean,Val_F1_Std,Val_Loss_Mean,Val_Loss_Std,Runs
+0,Model 1: Baseline MLP,84.96732,2.01451,0.84979,0.02031,0.37258,0.00401,5
+1,Model 2: Regularized MLP,87.45098,0.54684,0.8749,0.00528,0.30719,0.01154,5
+2,Model 3: Tuned MLP,87.71242,0.85218,0.87765,0.00865,0.26417,0.01775,5
