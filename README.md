@@ -11,11 +11,12 @@
 ![Hugging%20Face](https://img.shields.io/badge/Hugging%20Face-SDK%20Static-FFD21E?logo=huggingface&logoColor=black)
 ![Model](https://img.shields.io/badge/Model-MLP%20%2B%20RandomSearch-137B70)
 
+## KELOMPOK 4 · IF-B PAGI
 **Purba Tua Siregar** (231112463) · **Havidz Andrian** (231111899)  
 **Mikkael Raynala Tampubolon** (231112313) · **Ipaldi Jagarojes Sembiring** (231112081)  
 **Muhammad Dhani Irvansyah** (231112747)
 
-**Dosen:** Syanti Irviantina, S.Kom., M.Kom. · **Mata Kuliah:** Deep Learning · **Kelompok:** 4
+**Dosen:** Syanti Irviantina, S.Kom., M.Kom.
 
 ### [Buka Aplikasi LAPTOP-CLASSIFIER](https://huggingface.co/spaces/Xkazuya/LAPTOP-CLASSIFIER) · [Buka Notebook Final](notebooks/UTS_DEEP_LEARNING_KELOMPOK_4_FINAL.ipynb) · [Baca Laporan PDF](reports/Laporan_UTS_Deep_Learning_Kelompok_4.pdf)
 
