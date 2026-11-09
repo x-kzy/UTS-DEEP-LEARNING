@@ -168,7 +168,7 @@ Aplikasi ini menerapkan **Model 3 (Tuned MLP)**, bukan model lain. Kami memilih 
 | **Unduh hasil** | Ekspor CSV atau XLSX berisi kelas, probabilitas, confidence, status, PPI | [Source app.js](web_static/app.js) |
 | **Dua fitur unik** | Confidence threshold 0,70 dan permutation importance hasil validasi | [Bukti notebook](docs/stages/11.md) |
 
-### Bukti antarmuka aktual: tema terang, tema gelap dan dua mode prediksi
+### TAMPILAN WEBSITE HUGGINGFACE LAPTOP-CLASSIFIER
 
 | **Input kustom - Preset Budget (Dark Mode)** | **Input kustom - High-End (Light Mode)** |
 | --- | --- |
