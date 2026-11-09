@@ -1,10 +1,10 @@
-# Hugging Face Spaces — LAPTOP-CLASSIFIER
+# Hugging Face Spaces - LAPTOP-CLASSIFIER
 
 [README utama](../README.md) · [Buka aplikasi](https://huggingface.co/spaces/Xkazuya/LAPTOP-CLASSIFIER) · [Mengapa SDK Static?](DEPLOYMENT.md) · [Source UI](WEB_SOURCE.md) · [Hasil model](EXPERIMENTS.md)
 
 ## Gambaran aplikasi
 
-**LAPTOP-CLASSIFIER** merupakan antarmuka untuk menguji **Model 3 Tuned MLP** hasil penelitian *Klasifikasi Kelas Harga Laptop Berdasarkan Spesifikasi Teknis Menggunakan Arsitektur Multi-Layer Perceptron (MLP) dengan Hyperparameter Tuning*. Model menggunakan **83 dimensi masukan** dan menghasilkan probabilitas **tiga kelas harga**. Melalui Hugging Face Spaces **SDK Static**, kalkulasi dijalankan pada browser menggunakan HTML, CSS, dan JavaScript—**tanpa Gradio dan tanpa backend Python untuk prediksi**.
+**LAPTOP-CLASSIFIER** merupakan antarmuka untuk menguji **Model 3 Tuned MLP** hasil penelitian *Klasifikasi Kelas Harga Laptop Berdasarkan Spesifikasi Teknis Menggunakan Arsitektur Multi-Layer Perceptron (MLP) dengan Hyperparameter Tuning*. Model menggunakan **83 dimensi masukan** dan menghasilkan probabilitas **tiga kelas harga**. Melalui Hugging Face Spaces **SDK Static**, kalkulasi dijalankan pada browser menggunakan HTML, CSS, dan JavaScript-**tanpa Gradio dan tanpa backend Python untuk prediksi**.
 
 Pengguna memiliki dua cara menjalankan prediksi: mengisi spesifikasi satu laptop melalui tab **Input Spesifikasi Kustom**, atau memproses sekumpulan laptop melalui tab **Batch Upload CSV / XLSX / JSON**. Setiap hasil dilengkapi informasi **dual price** (INR/IDR) dan **confidence score**.
 
@@ -24,17 +24,17 @@ Pengguna memiliki dua cara menjalankan prediksi: mengisi spesifikasi satu laptop
 | **Batch Export** | Menyimpan hasil ke CSV dan XLSX yang memuat kelas, confidence, tiga probabilitas, status, dan PPI | `exportRows()` |
 | **Info hasil penelitian** | Menampilkan akurasi dan F1 dari JSON evaluasi, bukan angka contoh UI | `renderResearch()` |
 
-## Tab 1 — Input Spesifikasi Kustom
+## Tab 1 - Input Spesifikasi Kustom
 
 Empat panel formulir meliputi **(1) Identitas & CPU**; **(2) Memori RAM & Storage**; **(3) GPU & Layar**; dan **(4) OS, Garansi & Rating**. Secara khusus tersedia `brand_name`, `processor_brand`, `iter`, `core_num`, `threads_num`, `ram_num`, `ram_type`, `memory_type`, `memory_size`, `gpu_brand`, `gpu_type`, `display_size`, resolusi layar, `Touch_Screen`, `os`, `warranty`, dan `rating`. Fitur `ppi` dihitung otomatis, bukan diwajibkan sebagai input manual.
 
-### Hasil Preset 1: Budget — Dark Mode
+### Hasil Preset 1: Budget - Dark Mode
 
 ![Preset Budget pada tema gelap](huggingface/kustom_budget_dark_9859.png)
 
 Dari screenshot hasil pengujian, input Budget memakai **Avita, AMD Ryzen 5, 8 core/12 threads, RAM 8 GB DDR4, SSD 256 GB, GPU AMD Integrated, layar 14 inci**, sistem operasi Windows 10/11, garansi satu tahun, dan rating 4,75. Hasilnya adalah **Kelas 0: Entry-Level**, confidence **98,59%**, probabilitas Mid-Range **1,41%**, High-End **0,00%**, dan PPI **157,35**. Panel hasil mencantumkan rentang observasi pada dataset **₹10.990–₹49.999** (sekitar **Rp2.116.114–Rp9.627.257**), bukan taksiran harga individual laptop input.
 
-### Hasil spesifikasi premium — Light Mode
+### Hasil spesifikasi premium - Light Mode
 
 ![Input kustom premium pada tema terang](huggingface/kustom_highend_light_9997.png)
 
@@ -42,29 +42,29 @@ Screenshot kedua memperlihatkan kombinasi **Dell, Intel Core i9, RAM 16 GB LPDDR
 
 Tampilan gelap dan terang menggunakan **model yang sama**; pergantian tema hanya mengubah presentasi, bukan probabilitas MLP.
 
-## Tab 2 — Batch Upload (CSV, XLSX, JSON)
+## Tab 2 - Batch Upload (CSV, XLSX, JSON)
 
 Pengguna memilih berkas, aplikasi membaca record, memvalidasi fitur, menjalankan imputasi dan encoding yang sesuai training, menghitung PPI, lalu menampilkan kelas, confidence, status, serta ringkasan kategori. Kesalahan format per baris dipisahkan dari baris yang berhasil diprediksi. Tersedia tombol unduh template, contoh CSV dari subset training, preset katalog, bersihkan hasil, prediksi massal, serta ekspor CSV/XLSX.
 
-### A. Preset katalog dari dataset training — 48 laptop (Light Mode)
+### A. Preset katalog dari dataset training - 48 laptop (Light Mode)
 
 ![Preset katalog 48 laptop tema terang](huggingface/batch_preset_training_48_light.png)
 
 Screenshot terbaru menunjukkan tombol **Gunakan Preset Katalog dari Dataset**, bukan upload file simulasi. Dari **48 laptop pada subset training** yang diproses lewat preset, keluaran model tercatat **17 Entry-Level (35,4%)**, **17 Mid-Range (35,4%)**, dan **14 High-End (29,2%)**. Distribusi ini merupakan contoh perilaku aplikasi pada preset training, **bukan ukuran performa generalisasi pada test set**.
 
-### B. CSV — 18 laptop (skenario sintetis)
+### B. CSV - 18 laptop (skenario sintetis)
 
 ![Hasil batch CSV 18 laptop](huggingface/batch_csv_18.png)
 
 File [CSV 18 laptop](../data/testing/batch_uji_18_laptop.csv) menghasilkan **0 Entry-Level (0,0%)**, **13 Mid-Range (72,2%)**, dan **5 High-End (27,8%)**. Salah satu contoh memiliki confidence **62,41%** dan diberi status **Perlu Ditinjau**.
 
-### C. XLSX — 40 laptop (skenario sintetis)
+### C. XLSX - 40 laptop (skenario sintetis)
 
 ![Hasil batch XLSX 40 laptop](huggingface/batch_xlsx_40.png)
 
 File [Excel 40 laptop](../data/testing/batch_uji_40_laptop.xlsx) menghasilkan **2 Entry-Level (5,0%)**, **16 Mid-Range (40,0%)**, dan **22 High-End (55,0%)**. Contoh confidence yang terlihat pada screenshot antara lain **99,83%** dan **64,90%**; angka kedua ditandai **Perlu Ditinjau**.
 
-### D. JSON — 72 laptop (skenario sintetis; Dark Mode)
+### D. JSON - 72 laptop (skenario sintetis; Dark Mode)
 
 ![Hasil batch JSON 72 laptop](huggingface/batch_json_72_dark_667.png)
 
