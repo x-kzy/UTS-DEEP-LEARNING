@@ -1,7 +1,7 @@
 <div align="center">
 
 # Klasifikasi Kelas Harga Laptop Berdasarkan Spesifikasi Teknis Menggunakan Arsitektur Multi-Layer Perceptron (MLP) dengan Hyperparameter Tuning
-# UTS DEEP LEARNING 
+# UTS·DEEP LEARNING 
 
 **Universitas Mikroskil · S-1 Teknik Informatika · Semester Ganjil 2026/2027**
 
