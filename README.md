@@ -18,7 +18,7 @@
 
 **Dosen:** Syanti Irviantina, S.Kom., M.Kom.
 
-### [Buka Web LAPTOP-CLASSIFIER](https://huggingface.co/spaces/Xkazuya/LAPTOP-CLASSIFIER) · [Buka Notebook Final](notebooks/UTS_DEEP_LEARNING_KELOMPOK_4_FINALE.ipynb) · [Baca Laporan PDF](reports/Laporan_UTS_Deep_Learning_Kelompok_4.pdf)
+### [Buka Web LAPTOP-CLASSIFIER](https://huggingface.co/spaces/Xkazuya/LAPTOP-CLASSIFIER) · [Buka Notebook Final]([notebooks/UTS_DEEP_LEARNING_KELOMPOK_4_FINALE.ipynb](https://colab.research.google.com/drive/15Rw6EE2y7_UPxA60y1rCgyraN7wlydfl?usp=sharing)) · [Baca Laporan PDF](reports/Laporan_UTS_Deep_Learning_Kelompok_4.pdf)
 
 *Model utama penelitian: **Model 3 - Tuned MLP (96→64→48)** · 83 fitur · 3 kelas harga*
 
