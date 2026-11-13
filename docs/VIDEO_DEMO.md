@@ -2,7 +2,7 @@
 
 Urutan video demo menjelaskan model UTS Google Colab terlebih dahulu, lalu demonstrasi di Web Hugging Face Spaces:
 
- Penyaji | Fokus |
+ Nama | Fokus |
 --- | --- |
 | Havidz Andrian | Moderator, tujuan proyek, dataset, EDA |
  Muhammad Dhani Irvansyah | Split, preprocessing, tensor, model |
